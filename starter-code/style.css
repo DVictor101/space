@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document */
+/*
+html5doctor.comResetStylesheet
+v1.6.1
+LastUpdated:2010-09-17
+Author:RichardClark-http://richclarkdesign.com
+Twitter:@rich_clark
+*/
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+abbr,address,cite,code,
+del,dfn,em,img,ins,kbd,q,samp,
+small,strong,sub,sup,var,
+b,i,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;vertical-align:baseline;
+background:transparent;
+}
+body{
+line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+display:block;
+}
+navul{
+list-style:none;
+}
+blockquote,q{
+quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+content:'';
+content:none;}
+a{
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+/*changecolourstosuityourneeds*/
+ins{
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+/*changecolourstosuityourneeds*/
+mark{
+background-color:#ff9;
+color:#000;
+font-style:italic;
+font-weight:bold;
+}del{
+text-decoration:line-through;
+}
+abbr[title],dfn[title]{
+border-bottom:1px dotted;
+cursor:help;
+}
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+/*changebordercolourtosuityourneeds*/
+hr{
+display:block;
+height:1px;
+border:0;
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+input,select{vertical-align:middle;}
+/* project styling starts here*/
+
+body{ background-image: url("assets/home/background-home-desktop.jpg"); width: 100%; height: 100vh; background-attachment: fixed; background-repeat: no-repeat;}
+/* header styling*/
+.homeheader{ display: flex; margin-top: 30px; margin-left: 40px}
+.site-logo{ width: 30px; height: 30px;}
+.header-rule{ width: 55%; margin-left: 40px; border: none; background-color: rgba(194,188,188,0.20); z-index: 4}
+.nav-tab{height: 40px; width: 50%; background-color: rgba(11,74,126,0.30); display: flex; flex-direction: row ; line-height: 40px; z-index: 1}
+.nav-list a{ color: white; text-decoration: none; font-size: 12px; font-family: sans-serif; margin-left: 30px; width: 100px;}
+.nav-list a:hover{ border-bottom: 2px solid rgba(95,95,95,1.00); color: rgba(95,95,95,1.00); }
+/*main styling starts here*/
+.main-style{float: left; width: 500px; height: 300px; margin-left: 10%; margin-top: 10%}
+.mainp{ color: white; font-family: allura; font-size: 15px; text-transform: uppercase; font-weight: 100;}
+.mainhone{ color: white; font-size: 100px; font-weight: 300; font-family: allura; margin-left: -7px }
+.mainhtwo{ color: white; font-size: 15px; margin-top: 40px; font-weight: 100; line-height: 23px}
+/* explore styling*/
+.aside-tag{ width: 200px; height: 200px; background: white; color: black; margin-top: 18%; margin-left: 70%; border-radius: 50%; }
+.explorediv{line-height: 200px; margin-left: 35%;}
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+body{ background-image: url("assets/home/background-home-mobile.jpg"); width: 100%; height: 100%; background-attachment: scroll }
+	
+	
+/* header styling*/
+.homeheader{margin-top: 30px; margin-left: 10px;}
+.header-rule{ width: 25%; margin-left: 10px; border: none; background-color: rgba(194,188,188,0.20); z-index: 4; display: none}
+.nav-tab{height: 40px; width: 80%; display: flex; flex-direction: row ; line-height: 40px; z-index: 1; margin-left: 70px}
+.nav-list a{ color: white; text-decoration: none; font-size: 10px; font-family: sans-serif; margin-left: 9px; width: 100px; font-weight: 500}
+.nav-list a:hover{ border-bottom: 2px solid rgba(95,95,95,1.00); }	
+	/*main styling is here*/
+.main-style{float: left; width: 230px; height: 300px;}
+.mainp{font-size: 19px; text-transform: uppercase; font-weight: 100;}
+.mainhone{ color: white; font-size: 100px; font-weight: 300; font-family: allura; margin-left: -7px }
+.mainhtwo{ color: white; font-size: 15px; margin-top: 40px; font-weight: 400; line-height: 23px; font-family: allura}
+/* explore styling*/
+.aside-tag{ width: 100px; height: 100px; background: white; color: black; margin-top: 110%; margin-left: 70%; border-radius: 50%; }
+.explorediv{line-height: 100px; margin-left: 15%;}
+
+}
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+body{ background-image: url("assets/home/background-home-tablet.jpg"); width: 100%; height: 100%; background-attachment: scroll }
+	/* header styling*/
+.homeheader{ margin-left: 40px}
+.site-logo{ width: 50px; height: 50px;}
+.header-rule{ width: 37%; margin-left: 20px; border: none; background-color: rgba(194,188,188,0.20); z-index: 4}
+.nav-tab{height: 50px; width: 50%; line-height: 50px; }
+
+/*main styling starts here*/
+.main-style{width: 450px; height: 700px; margin-left: 15%; margin-top: 15%}
+.mainp{font-family: allura; font-size: 25px; }
+.mainhone{ color: white; font-size: 100px; font-weight: 300; font-family: allura; margin-left: -7px }
+.mainhtwo{ color: white; font-size: 25px; margin-top: 50px; font-weight: 100; line-height: 33px}
+/* explore styling*/
+.aside-tag{ width: 200px; height: 200px; background: white; color: black; margin-top: 69%; margin-left: 65%; border-radius: 50%; }
+.explorediv{line-height: 200px; margin-left: 35%;}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 481px) 
+and (max-device-width : 769px) {
+	
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
